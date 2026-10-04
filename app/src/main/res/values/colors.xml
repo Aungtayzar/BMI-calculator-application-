@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- BMI Category Text / Primary Colors -->
+    <color name="bmi_underweight_text">#0D47A1</color>
+    <color name="bmi_normal_text">#1B5E20</color>
+    <color name="bmi_overweight_text">#E65100</color>
+    <color name="bmi_obese_text">#B71C1C</color>
+
+    <!-- BMI Category Card Container Colors -->
+    <color name="bmi_underweight_container">#E3F2FD</color>
+    <color name="bmi_normal_container">#E8F5E9</color>
+    <color name="bmi_overweight_container">#FFF3E0</color>
+    <color name="bmi_obese_container">#FFEBEE</color>
+</resources>

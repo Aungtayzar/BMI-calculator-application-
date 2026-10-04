@@ -1,0 +1,62 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">BMI Calculator</string>
+    <string name="app_subtitle">Calculate your Body Mass Index</string>
+
+    <!-- Unit Selection -->
+    <string name="unit_system_label">Unit System</string>
+    <string name="unit_metric">Metric (kg, cm)</string>
+    <string name="unit_imperial">Imperial (lbs, ft/in)</string>
+
+    <!-- Input Labels & Hints -->
+    <string name="weight_label">Weight</string>
+    <string name="height_label">Height</string>
+    <string name="height_feet_label">Feet</string>
+    <string name="height_inches_label">Inches</string>
+
+    <string name="weight_hint_metric">e.g., 70</string>
+    <string name="height_hint_metric">e.g., 175</string>
+    <string name="weight_hint_imperial">e.g., 150</string>
+    <string name="height_feet_hint">e.g., 5</string>
+    <string name="height_inches_hint">e.g., 10</string>
+
+    <string name="unit_suffix_kg">kg</string>
+    <string name="unit_suffix_lbs">lbs</string>
+    <string name="unit_suffix_cm">cm</string>
+    <string name="unit_suffix_ft">ft</string>
+    <string name="unit_suffix_in">in</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">Calculate BMI</string>
+    <string name="btn_reset">Reset</string>
+
+    <!-- BMI Categories -->
+    <string name="category_underweight">Underweight</string>
+    <string name="category_normal">Normal Weight</string>
+    <string name="category_overweight">Overweight</string>
+    <string name="category_obese">Obese</string>
+
+    <!-- Feedback Messages -->
+    <string name="feedback_underweight">Your BMI indicates that you are underweight. Consider speaking with a healthcare professional regarding balanced nutrition and wellness.</string>
+    <string name="feedback_normal">Your BMI is within the healthy range. Great job! Maintain your healthy lifestyle with balanced nutrition and regular physical activity.</string>
+    <string name="feedback_overweight">Your BMI indicates that you are overweight. A balanced diet and regular physical activity can help manage your weight effectively.</string>
+    <string name="feedback_obese">Your BMI falls within the obese range. We recommend consulting a healthcare provider or nutritionist for tailored advice.</string>
+
+    <!-- Result Display -->
+    <string name="result_header">BMI Result</string>
+    <string name="result_bmi_value_placeholder">--.-</string>
+    <string name="result_category_placeholder">Ready to calculate</string>
+    <string name="result_prompt">Enter your weight and height above and tap Calculate BMI.</string>
+
+    <!-- Validation Errors -->
+    <string name="error_weight_empty">Please enter weight</string>
+    <string name="error_height_empty">Please enter height</string>
+    <string name="error_feet_empty">Please enter feet</string>
+    <string name="error_inches_empty">Please enter inches</string>
+    <string name="error_invalid_number">Please enter a valid number</string>
+    <string name="error_weight_range_metric">Weight must be between %1$.1f kg and %2$.1f kg</string>
+    <string name="error_height_range_metric">Height must be between %1$.1f cm and %2$.1f cm</string>
+    <string name="error_weight_range_imperial">Weight must be between %1$.1f lbs and %2$.1f lbs</string>
+    <string name="error_feet_range">Feet must be between 1 and 9</string>
+    <string name="error_inches_range">Inches must be between 0 and 11</string>
+</resources>
